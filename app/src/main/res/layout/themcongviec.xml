@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemCongViec">
+
+    <EditText
+        android:id="@+id/txtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiêu Đề"/>
+    <EditText
+        android:id="@+id/txtNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nội Dung"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="100dp"
+            android:id="@+id/btnsave"
+            android:text="Lưu Công Việc"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Trở Về"
+            android:id="@+id/btncancel"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
